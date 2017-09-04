@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Learning MDL</title>
+
+        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style>
+            body{
+                padding: 20px;
+            }
+            .header{
+                color: #666;
+                margin-top: 50px;
+            }
+            .container{
+                margin: 0 auto;
+                width: 800px;
+            }
+            .toggle{
+                margin: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!- form input ->
+        <div class="container">
+
+            <h1 class="header" >Material Design Lite Toggles</h1>
+            <div class="toggle">
+                <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                  <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input" />
+                  <span class="mdl-checkbox__label">Checkbox</span>
+                </label>
+            </div>
+
+            <div class="toggle">
+                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+                  <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked />
+                  <span class="mdl-radio__label">Option 1</span>
+                </label>
+                <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                  <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2" />
+                  <span class="mdl-radio__label">Option 2</span>
+                </label>
+            </div>
+
+            <div class="toggle">
+                <label style="display: block;" class="mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect" for="icon-toggle-1">
+                  <input type="checkbox" id="icon-toggle-1" class="mdl-icon-toggle__input" checked />
+                  <i class="mdl-icon-toggle__label material-icons">mood</i>
+                </label>
+            </div>
+
+            <div class="toggle">
+                <label class="mdl-switch mdl-js-switch mdl-js-ripple-effect" for="switch-1">
+                  <input type="checkbox" id="switch-1" class="mdl-switch__input" checked />
+                  <span class="mdl-switch__label"></span>
+                </label>
+            </div>
+            </div>
+
+    </body>
+</html>
