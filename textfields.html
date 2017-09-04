@@ -31,6 +31,7 @@
 
             <h1 class="header" >Material Design Lite Text Fields</h1>
 
+            <!- always link the input with lable using id ->
             <form action="#">
               <div class="mdl-textfield mdl-js-textfield textfield-demo">
                 <input class="mdl-textfield__input" type="text" id="sample1" />
@@ -40,6 +41,7 @@
 
 
             <form action="#">
+              <!- validation using Regex ->
               <div class="mdl-textfield mdl-js-textfield textfield-demo">
                 <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
                 <label class="mdl-textfield__label" for="sample2">Number...</label>
@@ -70,11 +72,14 @@
               </div>
             </form>
 
+            <!- use icon for expandable label ->
+            <!- use i tag instead of span, meaning implication ->
             <form action="#">
               <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable textfield-demo">
                 <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
                   <i class="material-icons">search</i>
                 </label>
+                <!- expandable holder ->
                 <div class="mdl-textfield__expandable-holder">
                   <input class="mdl-textfield__input" type="text" id="sample6" />
                   <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
