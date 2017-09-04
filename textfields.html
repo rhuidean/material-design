@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Learning MDL</title>
+
+        <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.indigo-pink.min.css">
+        <script src="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.js"></script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style>
+            body{
+                padding: 20px;
+            }
+            .header{
+                color: #666;
+                margin-top: 50px;
+            }
+            .container{
+                margin: 0 auto;
+                width: 800px;
+            }
+            .toggle{
+                margin: 50px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+
+            <h1 class="header" >Material Design Lite Text Fields</h1>
+
+            <form action="#">
+              <div class="mdl-textfield mdl-js-textfield textfield-demo">
+                <input class="mdl-textfield__input" type="text" id="sample1" />
+                <label class="mdl-textfield__label" for="sample1">Text...</label>
+              </div>
+            </form>
+
+
+            <form action="#">
+              <div class="mdl-textfield mdl-js-textfield textfield-demo">
+                <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2" />
+                <label class="mdl-textfield__label" for="sample2">Number...</label>
+                <span class="mdl-textfield__error">Input is not a number!</span>
+              </div>
+            </form>
+
+            <form action="#">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+                <input class="mdl-textfield__input" type="text" id="sample3" />
+                <label class="mdl-textfield__label" for="sample3">Text...</label>
+              </div>
+            </form>
+
+
+            <form action="#">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label textfield-demo">
+                <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample4" />
+                <label class="mdl-textfield__label" for="sample4">Number...</label>
+                <span class="mdl-textfield__error">Input is not a number!</span>
+              </div>
+            </form>
+
+            <form action="#">
+              <div class="mdl-textfield mdl-js-textfield textfield-demo">
+                <textarea class="mdl-textfield__input" type="text" rows= "3" id="sample5" ></textarea>
+                <label class="mdl-textfield__label" for="sample5">Text lines...</label>
+              </div>
+            </form>
+
+            <form action="#">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable textfield-demo">
+                <label class="mdl-button mdl-js-button mdl-button--icon" for="sample6">
+                  <i class="material-icons">search</i>
+                </label>
+                <div class="mdl-textfield__expandable-holder">
+                  <input class="mdl-textfield__input" type="text" id="sample6" />
+                  <label class="mdl-textfield__label" for="sample-expandable">Expandable Input</label>
+                </div>
+              </div>
+            </form>
+
+            </div>
+
+    </body>
+</html>
